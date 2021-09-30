@@ -75,7 +75,7 @@ class HeaderThree extends Component {
                 items={[
                   "home",
                   "about",
-                  "service",
+                  "skills",
                   "portfolio",
                   "blog",
                   "contact",
