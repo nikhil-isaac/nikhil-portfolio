@@ -30,7 +30,7 @@ class TabsTwo extends Component {
             <div className="single-tab-content list-unstyled">
               <ul className="list-unstyled">
                 <li>
-                  <a href="#service">
+                  <a href="#skills">
                     B.Tech + M.Tech (Dual Degree) Computer Engineering
                     <span> | 2014 - 2019</span>
                   </a>
@@ -55,7 +55,7 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       SOFTWARE ENGINEER <span> | AUG 2019 - PRESENT</span>
                     </a>
                     Front-end developer for IBM Watson Knowledge Catalog (Red
@@ -92,7 +92,7 @@ class TabsTwo extends Component {
                     </li>
                   </ul>
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       SOFTWARE DEVELOPMENT INTERN
                       <span> | JAN - JUN 2019</span>
                     </a>
@@ -108,7 +108,7 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       Research & Development INTERN
                       <span> | JUN - OCT 2018</span>
                     </a>{" "}
@@ -124,7 +124,7 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       Research & Development INTERN
                       <span> | DEC 2017</span>
                     </a>{" "}
@@ -146,7 +146,7 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       FINALIST OF IBM HACK CHALLENGE
                       <span> | JUN 2019</span>
                     </a>{" "}
@@ -154,7 +154,7 @@ class TabsTwo extends Component {
                     Blockchain” with Hyperledger fabric and composer
                   </li>
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       WINNER OF IBM MEGA HACKATHON
                       <span> | OCT 2018</span>
                     </a>{" "}
@@ -163,7 +163,7 @@ class TabsTwo extends Component {
                     Passport.js and Bootstrap.
                   </li>
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       Best solo performer for Guvi Daksh’18 - 2 days Hackathon
                       <span> | 2018</span>
                     </a>{" "}
@@ -179,17 +179,17 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       IIT-JEE <span> | 2014</span>
                     </a>{" "}
                     Top 2.24% out of 0.81 million candidates.
                   </li>
                   <li>
-                    <a href="#service">CBSE Class 12 Board Exam</a>School topper
+                    <a href="#skills">CBSE Class 12 Board Exam</a>School topper
                     in C.S. Branch with 95% marks.
                   </li>
                   <li>
-                    <a href="#service">CBSE Class 10 Board Exam</a>School topper
+                    <a href="#skills">CBSE Class 10 Board Exam</a>School topper
                     with CGPA 10/10.
                   </li>
                 </ul>
@@ -199,7 +199,7 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       Vice President Public Relations of BETC
                       <span> | JAN - JUL 2020</span>
                     </a>{" "}
@@ -211,7 +211,7 @@ class TabsTwo extends Component {
                     by District Officers.
                   </li>
                   <li>
-                    <a href="#service">
+                    <a href="#skills">
                       President of BETC
                       <span> | JUL - DEC 2020</span>
                     </a>{" "}
@@ -229,31 +229,31 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li className="title">
-                    <a href="#service">Toastmasters International:</a>
+                    <a href="#skills">Toastmasters International:</a>
                   </li>
                   <ul>
                     <li>
-                      <a href="#service">
+                      <a href="#skills">
                         Triple Crown Award
                         <span> | 2021</span>
                       </a>
                     </li>
                     <li>
-                      <a href="#service">
+                      <a href="#skills">
                         Completed level 3 of Engaging Humor Pathways
                         <span> | 2021</span>
                       </a>
                     </li>
 
                     <li>
-                      <a href="#service">
+                      <a href="#skills">
                         Club level Table Topics Contest
                         <span> | 2021</span>
                       </a>{" "}
                       2nd prize
                     </li>
                     <li>
-                      <a href="#service">
+                      <a href="#skills">
                         Area level Evaluation contest
                         <span> | 2020</span>
                       </a>{" "}
@@ -261,7 +261,7 @@ class TabsTwo extends Component {
                     </li>
 
                     <li>
-                      <a href="#service">
+                      <a href="#skills">
                         Area level Humorous speech contest
                         <span> | 2019</span>
                       </a>{" "}
@@ -275,16 +275,15 @@ class TabsTwo extends Component {
               <div className="single-tab-content">
                 <ul className="list-unstyled">
                   <li>
-                    <a href="#service">Maarga Mentor</a> Mentored
-                    underprivileged children to do well in life and studies.
+                    <a href="#skills">Maarga Mentor</a> Mentored underprivileged
+                    children to do well in life and studies.
                   </li>
                   <li>
-                    <a href="#service">Vacation Bible School Volunteer</a>{" "}
-                    Helped in organizing fun and learning activities for
-                    children.
+                    <a href="#skills">Vacation Bible School Volunteer</a> Helped
+                    in organizing fun and learning activities for children.
                   </li>
                   <li>
-                    <a href="#service">Toastmaster Mentor</a> Mentored
+                    <a href="#skills">Toastmaster Mentor</a> Mentored
                     toastmasters in writing speech, giving evaluation, contests
                     guidance, etc.
                   </li>
