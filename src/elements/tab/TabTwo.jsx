@@ -114,7 +114,7 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Research & Development INTERN
                                 <span> | JUN - OCT 2018</span>
                               </a>{" "}
@@ -131,7 +131,7 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Research & Development INTERN
                                 <span> | DEC 2017</span>
                               </a>{" "}
@@ -152,7 +152,7 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 FINALIST OF IBM HACK CHALLENGE
                                 <span> | JUN 2019</span>
                               </a>{" "}
@@ -161,7 +161,7 @@ class TabsTwo extends Component {
                               composer
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 WINNER OF IBM MEGA HACKATHON
                                 <span> | OCT 2018</span>
                               </a>{" "}
@@ -171,7 +171,7 @@ class TabsTwo extends Component {
                               Bootstrap.
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Best solo performer for Guvi Daksh’18 - 2 days
                                 Hackathon
                                 <span> | 2018</span>
@@ -188,7 +188,7 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Vice President Public Relations of BETC
                                 <span> | JAN - JUL 2020</span>
                               </a>{" "}
@@ -201,7 +201,7 @@ class TabsTwo extends Component {
                               by District Officers.
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 President of BETC
                                 <span> | JUL - DEC 2020</span>
                               </a>{" "}
@@ -221,27 +221,27 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Triple Crown Award
                                 <span> | 2021</span>
                               </a>
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Completed level 3 of Engaging Humor Pathways
                                 <span> | 2021</span>
                               </a>
                             </li>
 
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Club level Table Topics Contest
                                 <span> | 2021</span>
                               </a>{" "}
                               2nd prize
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Area level Evaluation contest
                                 <span> | 2020</span>
                               </a>{" "}
@@ -249,7 +249,7 @@ class TabsTwo extends Component {
                             </li>
 
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Area level Humorous speech contest
                                 <span> | 2019</span>
                               </a>{" "}
@@ -262,19 +262,19 @@ class TabsTwo extends Component {
                         <div className="single-tab-content">
                           <ul>
                             <li>
-                              <a href="/service">Maarga Mentor</a> Mentored
+                              <a href="#service">Maarga Mentor</a> Mentored
                               underprivileged children to do well in life and
                               studies.
                             </li>
                             <li>
-                              <a href="/service">
+                              <a href="#service">
                                 Vacation Bible School Volunteer
                               </a>{" "}
                               Helped in organizing fun and learning activities
                               for children.
                             </li>
                             <li>
-                              <a href="/service">Toastmaster Mentor</a> Mentored
+                              <a href="#service">Toastmaster Mentor</a> Mentored
                               toastmasters in writing speech, giving evaluation,
                               contests guidance, etc.
                             </li>
