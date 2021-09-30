@@ -232,7 +232,7 @@ const PortfolioLanding = () => {
       {/* End About Area */}
 
       {/* Start Service Area  */}
-      <div id="service" className="fix">
+      <div id="skills" className="fix">
         <div className="service-area creative-service-wrapper ptb--120 bg_color--5">
           <div className="container">
             <div className="row">
