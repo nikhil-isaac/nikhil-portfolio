@@ -300,22 +300,25 @@ class TabsTwo extends Component {
         <div className="tabs-area">
           <div className="container">
             <div className="row">
-              <div className="col-lg-12">
-                <Tabs className="d-flex align-items-start">
-                  <div className="pt-4 mr-4">
-                    <TabList className={`${tabStyle} mr-3`}>
-                      <div className="d-flex flex-column ">
-                        <Tab className="w-100 mb-2">{tab1}</Tab>
-                        {tab2 ? <Tab className="w-100 mb-2">{tab2}</Tab> : null}
-                        {tab3 ? <Tab className="w-100 mb-2">{tab3}</Tab> : null}
-                        {tab4 ? <Tab className="w-100 mb-2">{tab4}</Tab> : null}
-                        {tab5 ? <Tab className="w-100 mb-2">{tab5}</Tab> : null}
-                      </div>
-                    </TabList>
+              {/* <Tabs className="d-flex align-items-start"> */}
+              <Tabs>
+                <div className="d-flex flex-row">
+                  <div className="col-3">
+                    <div className="pt-4">
+                      <TabList className={`${tabStyle} mr-3`}>
+                        <div className="d-flex flex-column ">
+                          <Tab className="mb-2">{tab1}</Tab>
+                          {tab2 ? <Tab className="mb-2">{tab2}</Tab> : null}
+                          {tab3 ? <Tab className="mb-2">{tab3}</Tab> : null}
+                          {tab4 ? <Tab className="mb-2">{tab4}</Tab> : null}
+                          {tab5 ? <Tab className="mb-2">{tab5}</Tab> : null}
+                        </div>
+                      </TabList>
+                    </div>
                   </div>
-                  {loadTabData()}
-                </Tabs>
-              </div>
+                  <div className="col-9">{loadTabData()}</div>
+                </div>
+              </Tabs>
             </div>
           </div>
         </div>
