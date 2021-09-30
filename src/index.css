@@ -13034,7 +13034,9 @@ Slider Default Style
   }
 }
 .slide.slider-style-3 .inner h1.title span {
-  color: #008bff;
+  /* color: #008bff; */
+  /* Color of the changing slider text */
+  color: #000;
 }
 
 .slider-wrapper.color-white .inner p.description {
