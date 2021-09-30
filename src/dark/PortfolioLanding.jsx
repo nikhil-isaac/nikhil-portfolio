@@ -197,6 +197,12 @@ const PortfolioLanding = () => {
                           </div>
                         </div>
                         <div className="row mt--30">
+                          <h3 className="title">Education</h3>
+                        </div>
+                        <div className="row mt--30">
+                          <TabTwo tabStyle="tab-style--1" type="education" />
+                        </div>
+                        <div className="row mt--30">
                           <h3 className="title">Experience</h3>
                         </div>
                         <div className="row mt--30">
