@@ -118,6 +118,7 @@ const PortfolioLanding = () => {
                         <TextLoop interval={1500}>
                           <span>Software Engineer</span>
                           <span>Full-stack Developer</span>
+                          <span>Open source contributor</span>
                           <span>Public Speaker</span>
                           <span>Volunteer</span>
                           <span>Mentor</span>
