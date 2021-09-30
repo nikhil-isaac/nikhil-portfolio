@@ -55,7 +55,11 @@ class HeaderThree extends Component {
     }
     const { color = "default-color" } = this.props;
     let logoUrl = (
-      <img style={{ width: "30px", opacity: 0.8 }} src={logo} alt="Ghost" />
+      <img
+        style={{ width: "30px", opacity: 0.8 }}
+        src={logo}
+        alt="Nikhil Manohar"
+      />
     );
 
     return (
@@ -86,7 +90,7 @@ class HeaderThree extends Component {
                   <a href="#about">About</a>
                 </li>
                 <li>
-                  <a href="#service">Service</a>
+                  <a href="#service">Skills</a>
                 </li>
                 <li>
                   <a href="#portfolio">Portfolio</a>
