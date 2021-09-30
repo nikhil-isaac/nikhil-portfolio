@@ -195,9 +195,22 @@ const PortfolioLanding = () => {
                             <p className="description">{description}</p>
                           </div>
                         </div>
-
                         <div className="row mt--30">
-                          <TabTwo tabStyle="tab-style--1" />
+                          <h3 className="title">Experience</h3>
+                        </div>
+                        <div className="row mt--30">
+                          <TabTwo tabStyle="tab-style--1" type="experience" />
+                        </div>
+                        <div className="row mt--30">
+                          <h3 className="title">
+                            Additional Experience & Accomplishments
+                          </h3>
+                        </div>
+                        <div className="row mt--30">
+                          <TabTwo
+                            tabStyle="tab-style--1"
+                            type="addExperience"
+                          />
                         </div>
                       </div>
                     </div>
