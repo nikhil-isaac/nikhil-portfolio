@@ -200,18 +200,6 @@ class TabsTwo extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <a href="#skills">
-                      Vice President Public Relations of BETC
-                      <span> | JAN - JUL 2020</span>
-                    </a>{" "}
-                    Promoted the club, BETC (a member club of Toastmasters
-                    International) with meeting posters distributed through
-                    social media, created and edited the term’s newsletter.
-                    Increased the club’s public presence to a great extent, got
-                    the best committee member for the term and got appreciated
-                    by District Officers.
-                  </li>
-                  <li>
-                    <a href="#skills">
                       President of BETC
                       <span> | JUL - DEC 2020</span>
                     </a>{" "}
@@ -221,6 +209,18 @@ class TabsTwo extends Component {
                     the covid 19 pandemic. All the goals for the club reached,
                     the Club got 75%-member retention, 9/10 DCP points achieved,
                     firebolt award for hosting an open-house and many more.
+                  </li>
+                  <li>
+                    <a href="#skills">
+                      Vice President Public Relations of BETC
+                      <span> | JAN - JUL 2020</span>
+                    </a>{" "}
+                    Promoted the club, BETC (a member club of Toastmasters
+                    International) with meeting posters distributed through
+                    social media, created and edited the term’s newsletter.
+                    Increased the club’s public presence to a great extent, got
+                    the best committee member for the term and got appreciated
+                    by District Officers.
                   </li>
                 </ul>
               </div>
