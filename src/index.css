@@ -4053,10 +4053,6 @@ font-family: 'Poppins', sans-serif;
   background-image: url(./assets/images/bg/bg-image-26.jpg) !important;
 }
 
-.bg_image--27 {
-  background-image: url(./assets/images/bg/bg-image-27.png) !important;
-}
-
 .bg_image--28 {
   background-image: url(./assets/images/bg/bg-image-28.jpg) !important;
 }
@@ -13036,7 +13032,7 @@ Slider Default Style
 .slide.slider-style-3 .inner h1.title span {
   /* color: #008bff; */
   /* Color of the changing slider text */
-  color: #0D1C4A;
+  color: #0d1c4a;
 }
 
 .slider-wrapper.color-white .inner p.description {
@@ -15949,7 +15945,7 @@ BLog Details Styles
 }
 .active-dark .bg_image--25 {
   background-color: #101010;
-  background-image: url(./assets/images/bg/portrait.png) !important;
+  /* background-image: url(./assets/images/bg/portrait.png) !important; */
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
