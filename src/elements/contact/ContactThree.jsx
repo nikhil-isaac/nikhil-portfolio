@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React, { useState } from "react";
 import emailjs from "emailjs-com";
 import Snackbar from "@material-ui/core/Snackbar";
 import MuiAlert from "@material-ui/lab/Alert";
@@ -7,153 +7,140 @@ function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
 
-class ContactThree extends Component {
-  handleClick = () => {
-    this.setState({ open: true });
+const ContactThree = (props) => {
+  const [rnName, setRnName] = useState("");
+  const [rnEmail, setRnEmail] = useState("");
+  const [rnSubject, setRnSubject] = useState("");
+  const [rnMessage, setRnMessage] = useState("");
+  const [open, setOpen] = useState(false);
+
+  const handleClick = () => {
+    setOpen(true);
   };
 
-  handleClose = (event, reason) => {
+  const handleClose = (event, reason) => {
     if (reason === "clickaway") {
       return;
     }
-
-    this.setState({ open: false });
+    setOpen(false);
   };
-  constructor(props) {
-    super(props);
-    this.state = {
-      rnName: "",
-      rnEmail: "",
-      rnSubject: "",
-      rnMessage: "",
-      open: false,
-    };
-  }
-  sendEmail = (e) => {
+
+  const sendEmail = (e) => {
     e.preventDefault();
-    if (this.state.rnName && this.state.rnEmail) {
+    if (rnName && rnEmail) {
       emailjs
         .send(
           "service_kizq2jc",
           "template_kelvz78",
           {
-            rnEmail: this.state.rnEmail,
-            rnSubject: this.state.rnSubject,
-            message: this.state.rnMessage,
-            from_name: this.state.rnName,
+            rnEmail: rnEmail,
+            rnSubject: rnSubject,
+            message: rnMessage,
+            from_name: rnName,
           },
           "user_mSOu4qc7NdtC3EkKkXIae"
         )
         .then(
           (result) => {
-            this.handleClick();
+            handleClick();
           },
           (error) => {
             console.log(error.text);
           }
         );
-      this.setState({
-        from_name: "",
-        rnEmail: "",
-        rnSubject: "",
-        message: "",
-      });
+      setRnName("");
+      setRnEmail("");
+      setRnSubject("");
+      setRnMessage("");
     } else {
       alert("Please fill in the contact form before submitting");
     }
   };
-  render() {
-    return (
-      <div className="contact-form--1">
-        <div className="container">
-          <center>
-            <div className="col-lg-8 order-2 order-lg-1">
-              <div className="section-title text-left mb--50">
-                <h2 className="title">{this.props.contactTitle}</h2>
-              </div>
-              <div className="form-wrapper">
-                <form onSubmit={this.sendEmail}>
-                  <label
-                    style={{ float: "left", width: "48%" }}
-                    htmlFor="item01"
-                  >
-                    <input
-                      type="text"
-                      name="name"
-                      id="item01"
-                      value={this.state.rnName}
-                      onChange={(e) => {
-                        this.setState({ rnName: e.target.value });
-                      }}
-                      placeholder="Your Name *"
-                    />
-                  </label>
 
-                  <label
-                    style={{ float: "right", width: "48%" }}
-                    htmlFor="item02"
-                  >
-                    <input
-                      type="email"
-                      name="email"
-                      id="item02"
-                      value={this.state.rnEmail}
-                      onChange={(e) => {
-                        this.setState({ rnEmail: e.target.value });
-                      }}
-                      placeholder="Your email *"
-                    />
-                  </label>
-
-                  <label htmlFor="item03">
-                    <input
-                      type="text"
-                      name="subject"
-                      id="item03"
-                      value={this.state.rnSubject}
-                      onChange={(e) => {
-                        this.setState({ rnSubject: e.target.value });
-                      }}
-                      placeholder="Write a Subject"
-                    />
-                  </label>
-                  <label htmlFor="item04">
-                    <textarea
-                      type="text"
-                      id="item04"
-                      name="message"
-                      value={this.state.rnMessage}
-                      onChange={(e) => {
-                        this.setState({ rnMessage: e.target.value });
-                      }}
-                      placeholder="Your Message"
-                    />
-                  </label>
-                  <button
-                    className="rn-btn btn-solid"
-                    type="submit"
-                    value="submit"
-                    name="submit"
-                    id="mc-embedded-subscribe"
-                  >
-                    Submit
-                  </button>
-                </form>
-              </div>
+  return (
+    <div className="contact-form--1">
+      <div className="container">
+        <center>
+          <div className="col-lg-8 order-2 order-lg-1">
+            <div className="section-title text-left mb--50">
+              <h2 className="title">{props.contactTitle}</h2>
             </div>
-          </center>
-        </div>
-        <Snackbar
-          open={this.state.open}
-          autoHideDuration={3000}
-          onClose={this.handleClose}
-        >
-          <Alert onClose={this.handleClose} severity="success">
-            Email sent!
-          </Alert>
-        </Snackbar>
+            <div className="form-wrapper">
+              <form onSubmit={sendEmail}>
+                <label style={{ float: "left", width: "48%" }} htmlFor="item01">
+                  <input
+                    type="text"
+                    name="name"
+                    id="item01"
+                    value={rnName}
+                    onChange={(e) => {
+                      setRnName(e.target.value);
+                    }}
+                    placeholder="Your Name *"
+                  />
+                </label>
+
+                <label
+                  style={{ float: "right", width: "48%" }}
+                  htmlFor="item02"
+                >
+                  <input
+                    type="email"
+                    name="email"
+                    id="item02"
+                    value={rnEmail}
+                    onChange={(e) => {
+                      setRnEmail(e.target.value);
+                    }}
+                    placeholder="Your email *"
+                  />
+                </label>
+
+                <label htmlFor="item03">
+                  <input
+                    type="text"
+                    name="subject"
+                    id="item03"
+                    value={rnSubject}
+                    onChange={(e) => {
+                      setRnSubject(e.target.value);
+                    }}
+                    placeholder="Write a Subject"
+                  />
+                </label>
+                <label htmlFor="item04">
+                  <textarea
+                    type="text"
+                    id="item04"
+                    name="message"
+                    value={rnMessage}
+                    onChange={(e) => {
+                      setRnMessage(e.target.value);
+                    }}
+                    placeholder="Your Message"
+                  />
+                </label>
+                <button
+                  className="rn-btn btn-solid"
+                  type="submit"
+                  value="submit"
+                  name="submit"
+                  id="mc-embedded-subscribe"
+                >
+                  Submit
+                </button>
+              </form>
+            </div>
+          </div>
+        </center>
       </div>
-    );
-  }
-}
+      <Snackbar open={open} autoHideDuration={3000} onClose={handleClose}>
+        <Alert onClose={handleClose} severity="success">
+          Email sent!
+        </Alert>
+      </Snackbar>
+    </div>
+  );
+};
+
 export default ContactThree;
