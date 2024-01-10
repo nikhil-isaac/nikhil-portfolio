@@ -39,7 +39,7 @@ const PortfolioLanding = () => {
           {/* Start Single Slide */}
           {SlideList.map((value, index) => (
             <div
-              className="slide personal-portfolio-slider slider-paralax slider-style-3 d-flex align-items-center justify-content-center bg_image bg_image--25"
+              className="slide slider-style-3 d-flex align-items-center justify-content-center"
               key={index}
             >
               <Particles
@@ -173,7 +173,7 @@ const PortfolioLanding = () => {
 
       {/* Start About Area */}
       <div id="about" className="fix">
-        <div className="about-area ptb--120  bg_color--1">
+        <div className="about-area  bg_color--1">
           <div className="about-wrapper">
             <div className="container about-container">
               <div className="row row--35 align-items-center">
