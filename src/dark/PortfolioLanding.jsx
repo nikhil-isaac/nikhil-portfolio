@@ -28,7 +28,7 @@ const PortfolioLanding = () => {
       "I'm a software engineer specializing in building amazing digital experiences and products. Currently, I’m focused on building exceptional user interfaces for IBM.";
   // const PostList = BlogContent.slice(0, 3);
   return (
-    <div className="active-dark">
+    <div>
       <Helmet pageTitle="Nikhil Manohar" />
 
       <HeaderThree homeLink="/" logo="symbol-dark" color="color-black" />
