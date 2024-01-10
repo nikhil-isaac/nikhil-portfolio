@@ -11,6 +11,7 @@ class TabsTwo extends Component {
       tab5 = "";
     if (type === "education") {
       tab1 = "B.Tech + M.Tech";
+      tab2 = "MS Data Science";
     } else if (type === "experience") {
       tab1 = "IBM";
       tab2 = "Ericsson";
@@ -26,27 +27,48 @@ class TabsTwo extends Component {
     const loadTabData = () => {
       if (type === "education") {
         return (
-          <TabPanel>
-            <div className="single-tab-content list-unstyled">
-              <ul className="list-unstyled">
-                <li>
-                  <a href="#skills">
-                    B.Tech + M.Tech (Dual Degree) Computer Engineering
-                    <span> | 2014 - 2019</span>
-                  </a>
-                  {
-                    "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, DESIGN AND MANUFACTURING (IIITD&M) KANCHEEPURAM, CHENNAI"
-                  }
-                  <ul>
-                    <li>
-                      Institute of National Importance Ministry of Human
-                      Resource Development, Government of India
-                    </li>
-                  </ul>
-                </li>
-              </ul>
-            </div>
-          </TabPanel>
+          <>
+            <TabPanel>
+              <div className="single-tab-content list-unstyled">
+                <ul className="list-unstyled">
+                  <li>
+                    <a href="#skills">
+                      B.Tech + M.Tech (Dual Degree) Computer Engineering
+                      <span> | 2014 - 2019</span>
+                    </a>
+                    {
+                      "INDIAN INSTITUTE OF INFORMATION TECHNOLOGY, DESIGN AND MANUFACTURING (IIITD&M) KANCHEEPURAM, CHENNAI, INDIA"
+                    }
+                    <ul>
+                      <li>
+                        Institute of National Importance Ministry of Human
+                        Resource Development, Government of India
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </TabPanel>
+            <TabPanel>
+              <div className="single-tab-content">
+                <ul className="list-unstyled">
+                  <li>
+                    <a href="#skills">
+                      MS Data Science
+                      <span> | 2022 - 2024</span>
+                    </a>
+                    {"University of Arizona, USA"}
+                    <ul>
+                      <li>
+                        Leading public research university in the American
+                        Southwest
+                      </li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </TabPanel>
+          </>
         );
       } else if (type === "experience") {
         return (
