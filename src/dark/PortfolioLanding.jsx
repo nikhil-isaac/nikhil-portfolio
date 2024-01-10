@@ -113,35 +113,38 @@ const PortfolioLanding = () => {
                   <div className="col-lg-12">
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
-                      <h1 className="title">
+                      <h2 className="title">
                         Hi, I’m Nikhil Manohar <br />
                         <TextLoop interval={1500}>
-                          <span>Software Engineer</span>
-                          <span>Full-stack Developer</span>
-                          <span>Open source contributor</span>
-                          <span>Public Speaker</span>
-                          <span>Volunteer</span>
-                          <span>Mentor</span>
+                          <span className="section-title">
+                            <h3>Software Engineer</h3>
+                          </span>
+                          <span className="section-title">
+                            <h3>Full-stack Developer</h3>
+                          </span>
+                          <span className="section-title">
+                            <h3>Open source contributor</h3>
+                          </span>
+                          <span className="section-title">
+                            <h3>Public Speaker</h3>
+                          </span>
+                          <span className="section-title">
+                            <h3>Volunteer</h3>
+                          </span>
+                          <span className="section-title">
+                            <h3>Mentor</h3>
+                          </span>
                         </TextLoop>{" "}
-                      </h1>
+                      </h2>
                       <button
                         style={{
-                          color: "white",
-                          border: "2px solid white",
                           marginTop: "12px",
                           marginBottom: "50px",
                           pointerEvents: "all",
                         }}
                         class="rn-btn btn-solid"
                       >
-                        <a
-                          style={{
-                            color: "white",
-                          }}
-                          href={"#contact"}
-                        >
-                          Contact Me
-                        </a>
+                        <a href={"#contact"}>Contact Me</a>
                       </button>
                       {value.description ? (
                         <p className="description">{value.description}</p>
@@ -180,7 +183,7 @@ const PortfolioLanding = () => {
                 <div className="col-lg-12">
                   <div className="about-inner inner">
                     <div className="section-title">
-                      <h2 className="title">{title}</h2>
+                      <h3 className="title">{title}</h3>
                       <div>
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
@@ -257,7 +260,7 @@ const PortfolioLanding = () => {
 
       {/* Start Portfolio Area */}
       <div id="portfolio" className="fix">
-        <div className="portfolio-area ptb--120 bg_color--1">
+        <div className="portfolio-area ptb--120ptb--120 bg_color--1">
           <div className="portfolio-sacousel-inner">
             <div className="container">
               <div className="row">
