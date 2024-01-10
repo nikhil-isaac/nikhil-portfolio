@@ -23,9 +23,8 @@ const SlideList = [
   },
 ];
 const PortfolioLanding = () => {
-  let title = "About Me",
-    description =
-      "I'm a software engineer specializing in building amazing digital experiences and products. Currently, I’m focused on building exceptional user interfaces for IBM.";
+  let description =
+    "I'm a software engineer specializing in building amazing digital experiences and products. Currently, I’m focused on building exceptional user interfaces for IBM.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div>
@@ -181,9 +180,8 @@ const PortfolioLanding = () => {
             <div className="container about-container">
               <div className="row row--35 align-items-center">
                 <div className="col-lg-12">
-                  <div className="about-inner inner">
+                  <div className="ptb--20 about-inner inner">
                     <div className="section-title">
-                      <h3 className="title">{title}</h3>
                       <div>
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
