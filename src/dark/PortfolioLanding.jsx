@@ -9,7 +9,6 @@ import TabTwo from "../elements/tab/TabTwo";
 import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
-import Particles from "react-particles";
 import BrandTwo from "./BrandTwo";
 import avatar from "../assets/images/about/avatar.jpg";
 
@@ -41,67 +40,6 @@ const PortfolioLanding = () => {
               className="slide slider-style-3 d-flex align-items-center justify-content-center"
               key={index}
             >
-              <Particles
-                style={{
-                  width: "100%",
-                  height: "100%",
-                  position: "absolute",
-                  top: "0",
-                  left: "0",
-                }}
-                params={{
-                  particles: {
-                    number: {
-                      value: 200,
-                      density: {
-                        enable: false,
-                      },
-                    },
-                    size: {
-                      value: 2.5,
-                      random: true,
-                      anim: {
-                        speed: 4,
-                        size_min: 0.3,
-                      },
-                    },
-                    line_linked: {
-                      enable: false,
-                    },
-                    move: {
-                      random: true,
-                      speed: 0.5,
-                      direction: "top",
-                      out_mode: "out",
-                    },
-                  },
-                  interactivity: {
-                    detect_on: "canvas",
-                    events: {
-                      onhover: {
-                        enable: true,
-                        mode: "repulse",
-                      },
-                      onclick: {
-                        enable: true,
-                        mode: "repulse",
-                      },
-                    },
-                    modes: {
-                      bubble: {
-                        distance: 250,
-                        duration: 2,
-                        size: 0,
-                        opacity: 0,
-                      },
-                      repulse: {
-                        distance: 150,
-                        duration: 4,
-                      },
-                    },
-                  },
-                }}
-              />
               <div
                 className="container"
                 style={{
@@ -114,7 +52,7 @@ const PortfolioLanding = () => {
                       {value.category ? <span>{value.category}</span> : ""}
                       <h2 className="title">
                         Hi, I’m Nikhil Manohar <br />
-                        <TextLoop interval={1500}>
+                        <TextLoop>
                           <span className="section-title">
                             <h3>Software Engineer</h3>
                           </span>
