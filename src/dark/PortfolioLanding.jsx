@@ -51,7 +51,7 @@ const PortfolioLanding = () => {
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
                       <h2 className="title">
-                        Hi, I’m Nikhil Manohar <br />
+                        Hi, I’m Nikhil Isaac Manohar <br />
                         <TextLoop>
                           <span className="section-title">
                             <h3>Software Engineer</h3>
