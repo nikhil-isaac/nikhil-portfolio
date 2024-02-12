@@ -49,7 +49,10 @@ const FooterTwo = () => {
           <div className="col-lg-4 col-md-12 col-sm-12 col-12">
             <div className="inner text-lg-right text-center mt_md--20 mt_sm--20">
               <div className="text">
-                <p>Copyright © 2021 Nikhil Manohar. All Rights Reserved.</p>
+                <p>
+                  Copyright © 2021, 2024 Nikhil Isaac Manohar. All Rights
+                  Reserved.
+                </p>
               </div>
             </div>
           </div>
