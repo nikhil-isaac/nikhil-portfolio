@@ -1,15 +1,10 @@
 import React, { useEffect } from "react";
-import { FaFacebookF, FaLinkedinIn, FaGithub } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 import logo from "../../assets/images/logo/logo.svg";
 
 const SocialShare = [
-  { Social: <FaFacebookF />, link: "https://www.facebook.com/nikhilmanohar97" },
-  {
-    Social: <FaLinkedinIn />,
-    link: "https://www.linkedin.com/in/nikhil-manohar-749a7b16a",
-  },
   { Social: <FaGithub />, link: "https://github.com/nikhil-isaac" },
 ];
 
