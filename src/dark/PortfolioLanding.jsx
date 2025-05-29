@@ -10,7 +10,8 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BrandTwo from "./BrandTwo";
-import avatar from "../assets/images/about/avatar.png";
+// import avatar from "../assets/images/about/avatar.png";
+import logo from "../assets/images/logo/logo.svg";
 
 const SlideList = [
   {
@@ -126,8 +127,8 @@ const PortfolioLanding = () => {
                             <div className="thumbnail">
                               <img
                                 className="w-100"
-                                src={avatar}
-                                alt="About Images"
+                                src={logo}
+                                alt="Nikhil Avatar"
                               />
                             </div>
                           </div>
