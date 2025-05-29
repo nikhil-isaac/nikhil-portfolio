@@ -10,7 +10,7 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BrandTwo from "./BrandTwo";
-import avatar from "../assets/images/about/avatar.jpg";
+import avatar from "../assets/images/about/avatar.png";
 
 const SlideList = [
   {
