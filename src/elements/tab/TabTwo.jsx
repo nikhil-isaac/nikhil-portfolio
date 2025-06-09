@@ -186,13 +186,14 @@ class TabsTwo extends Component {
                   </li>
                   <li>
                     <a href="#skills">
-                      Best solo performer for Guvi Daksh’18 - 2 days Hackathon
+                      Best Individual Performer for Guvi Daksh’18 - 2 days
+                      Hackathon
                       <span> | 2018</span>
                     </a>{" "}
-                    Built an ML APPLICATION: predictive & descriptive analytics
-                    of salary for Job Posts using Kaggle dataset. Used Random
-                    Forest to train the model and used Flask, HTML & CSS for
-                    building the GUI.
+                    Built a full-stack ML application(NLP): predictive &
+                    descriptive analytics of salary for Job Posts using Kaggle
+                    dataset. Used Random Forest to train the model and used
+                    Flask, HTML & CSS for building the GUI.
                   </li>
                 </ul>
               </div>
