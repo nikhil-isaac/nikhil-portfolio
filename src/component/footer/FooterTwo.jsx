@@ -1,9 +1,13 @@
 import React from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import logo from "../../assets/images/logo/logo.svg";
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/nikhil-isaac" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/nikhilisaacmanohar",
+  },
 ];
 
 const FooterTwo = () => {

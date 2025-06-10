@@ -1,11 +1,15 @@
 import React, { useEffect } from "react";
-import { FaGithub } from "react-icons/fa";
+import { FaLinkedinIn, FaGithub } from "react-icons/fa";
 import { FiX, FiMenu } from "react-icons/fi";
 import Scrollspy from "react-scrollspy";
 import logo from "../../assets/images/logo/logo.svg";
 
 const SocialShare = [
   { Social: <FaGithub />, link: "https://github.com/nikhil-isaac" },
+  {
+    Social: <FaLinkedinIn />,
+    link: "https://www.linkedin.com/in/nikhilisaacmanohar",
+  },
 ];
 
 const HeaderThree = (props) => {
