@@ -49,7 +49,7 @@ const HeaderThree = (props) => {
 
   let logoUrl = (
     <img
-      style={{ width: "30px", opacity: 0.8 }}
+      style={{ width: "50px", opacity: 0.8 }}
       src={logo}
       alt="Nikhil Manohar"
     />
