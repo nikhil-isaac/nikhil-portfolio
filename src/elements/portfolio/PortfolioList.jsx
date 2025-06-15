@@ -26,6 +26,14 @@ const PortfolioListContent = [
     info: "Data-Driven Delivery: Prioritized ML roadmap for Olist with a Phase-1 delivery-time predictor.",
   },
   {
+    image: "image-7",
+    category: "Healthcare AI, Computer Vision, Medical Imaging, Deep Learning",
+    title: "Skin Cancer CNN",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/skin-cancer-cnn",
+    info: "End-to-end TensorFlow pipeline that trains a compact CNN to classify dermoscopy images into nine skin-cancer categories with ≈ 82 % validation accuracy.",
+  },
+  {
     image: "image-1",
     category: "Express JS",
     title: "Mood: Social Media App",
