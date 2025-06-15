@@ -84,11 +84,7 @@ const PortfolioLanding = () => {
                       >
                         <a href={"#contact"}>Contact Me</a>
                       </button>
-                      {value.description ? (
-                        <p className="description">{value.description}</p>
-                      ) : (
-                        ""
-                      )}
+                      {value.description ? <p className="description">{value.description}</p> : ""}
                       {value.buttonText ? (
                         <div className="slide-btn">
                           <a
@@ -125,11 +121,7 @@ const PortfolioLanding = () => {
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
                             <div className="thumbnail">
-                              <img
-                                className="w-100"
-                                src={logo}
-                                alt="Nikhil Avatar"
-                              />
+                              <img className="w-100" src={logo} alt="Nikhil Avatar" />
                             </div>
                           </div>
                           <div className="col-md-9">
@@ -149,15 +141,10 @@ const PortfolioLanding = () => {
                           <TabTwo tabStyle="tab-style--1" type="experience" />
                         </div>
                         <div className="row mt--30">
-                          <h3 className="title">
-                            Additional Experience & Accomplishments
-                          </h3>
+                          <h3 className="title">Additional Experience & Accomplishments</h3>
                         </div>
                         <div className="row mt--30">
-                          <TabTwo
-                            tabStyle="tab-style--1"
-                            type="addExperience"
-                          />
+                          <TabTwo tabStyle="tab-style--1" type="addExperience" />
                         </div>
                       </div>
                     </div>
@@ -184,10 +171,7 @@ const PortfolioLanding = () => {
             </div>
             <div className="row creative-service">
               <div className="col-lg-12">
-                <ServiceList
-                  item="3"
-                  column="col-lg-4 col-md-6 col-sm-6 col-12 text-left"
-                />
+                <ServiceList item="3" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
               </div>
             </div>
           </div>
@@ -212,7 +196,7 @@ const PortfolioLanding = () => {
                 <PortfolioList
                   styevariation="text-center mt--40"
                   column="col-lg-4 col-md-6 col-sm-6 col-12"
-                  item="6"
+                  item="14"
                 />
               </div>
               {/* <div className="row">
