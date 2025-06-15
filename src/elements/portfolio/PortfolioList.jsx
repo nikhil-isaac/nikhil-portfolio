@@ -68,9 +68,20 @@ class PortfolioList extends Component {
                 <div className="inner">
                   <p>{value.category}</p>
                   <h4>
-                    <a href={value.link} rel="noreferrer" target="_blank">
-                      {value.title}
-                    </a>
+                    {value.link ? (
+                      <a href={value.link} rel="noreferrer" target="_blank">
+                        {value.title}
+                      </a>
+                    ) : (
+                      <div
+                        style={{
+                          color: "rgb(255, 250, 250)",
+                        }}
+                      >
+                        {value.title}
+                      </div>
+                    )}
+
                     <div
                       style={{
                         fontSize: "12px",
