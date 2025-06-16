@@ -10,6 +10,14 @@ const PortfolioListContent = [
     info: "End-to-end ML pipeline to predict user age & gender from user behaviour and a Dockerised Flask Application. It's the first module of the Ad Remommendation System.",
   },
   {
+    image: "image-9",
+    category: "Recommender Systems",
+    title: "Ad-CTRPredictor",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/Ad-CTRPredictor",
+    info: "End-to-end CTR prediction for ads: gradient-boosted modeling of click-through rates with feature-importance insights and a Dockerised Flask API.",
+  },
+  {
     image: "image-4",
     category: "Data Visualization, Exploratory Data Analysis, Business Intelligence",
     title: "Bay Wheels Ride Insights",
