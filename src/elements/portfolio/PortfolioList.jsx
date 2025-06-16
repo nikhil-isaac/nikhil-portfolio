@@ -42,6 +42,14 @@ const PortfolioListContent = [
     info: "Personalised recipe recommendation engine — from ingredient-level EDA to a working content-based & collaborative model",
   },
   {
+    image: "image-14",
+    category: "Visual Analytics, EDA, Transportation",
+    title: "Uber Supply–Demand Gap Analysis",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/uber-supply-demand-gap",
+    info: "Analyze temporal and geographic imbalances between Uber supply and rider demand using a custom gap metric and interactive visualizations.",
+  },
+  {
     image: "image-6",
     category: "Data Strategy, Business Analytics",
     title: "Olist ML Strategy Roadmap",
