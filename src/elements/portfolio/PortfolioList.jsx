@@ -2,6 +2,14 @@ import React, { Component } from "react";
 
 const PortfolioListContent = [
   {
+    image: "image-8",
+    category: "Recommender Systems",
+    title: "AdDemograph",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/adDemograph",
+    info: "End-to-end ML pipeline to predict user age & gender from user behaviour and a Dockerised Flask Application. It's the first module of the Ad Remommendation System.",
+  },
+  {
     image: "image-4",
     category: "Data Visualization, Exploratory Data Analysis, Business Intelligence",
     title: "Bay Wheels Ride Insights",
