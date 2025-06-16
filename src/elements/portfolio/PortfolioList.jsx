@@ -58,6 +58,14 @@ const PortfolioListContent = [
     info: "End-to-end TensorFlow pipeline that trains a compact CNN to classify dermoscopy images into nine skin-cancer categories with ≈ 82 % validation accuracy.",
   },
   {
+    image: "image-11",
+    category: "Natural Language Processing, Healthcare",
+    title: "Clinical-NER-Pipeline",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/clinical-ner-pipeline",
+    info: "A CRF-based NER system that extracts medical entities (drugs, conditions, anatomy, measurements) from clinical notes using handcrafted token features and cross-validated evaluation.",
+  },
+  {
     image: "image-1",
     category: "Express JS",
     title: "Mood: Social Media App",
