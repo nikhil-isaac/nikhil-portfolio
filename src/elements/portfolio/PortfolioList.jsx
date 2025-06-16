@@ -18,6 +18,14 @@ const PortfolioListContent = [
     info: "End-to-end CTR prediction for ads: gradient-boosted modeling of click-through rates with feature-importance insights and a Dockerised Flask API.",
   },
   {
+    image: "image-10",
+    category: "Anomaly Detection, Machine Learning",
+    title: "Credit-Card Fraud Detector",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/credit-card-fraud-detector",
+    info: "End-to-end credit-card fraud detection pipeline with imbalance handling, ensemble modeling, and threshold analysis.",
+  },
+  {
     image: "image-4",
     category: "Data Visualization, Exploratory Data Analysis, Business Intelligence",
     title: "Bay Wheels Ride Insights",
