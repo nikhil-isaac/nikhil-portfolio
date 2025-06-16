@@ -74,6 +74,14 @@ const PortfolioListContent = [
     info: "Attention-based Spanish→English translation with alignment heatmaps and BLEU scoring.",
   },
   {
+    image: "image-13",
+    category: "Data Ethics, Privacy-Preserving Analytics",
+    title: "Ethical Customer Insights",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/ethical-customer-insights",
+    info: "Transaction analysis & churn prediction with privacy-preserving data masking.",
+  },
+  {
     image: "image-1",
     category: "Express JS",
     title: "Mood: Social Media App",
