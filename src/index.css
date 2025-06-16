@@ -11536,6 +11536,9 @@ Footer Styles
 .portfolio .thumbnail.image-14 {
   background-image: url(./assets/images/portfolio/portfolio-14.jpg);
 }
+.portfolio .thumbnail.image-15 {
+  background-image: url(./assets/images/portfolio/portfolio-15.jpg);
+}
 .portfolio .thumbnail::after {
   background-color: rgba(45, 45, 45, 0.35);
   position: absolute;

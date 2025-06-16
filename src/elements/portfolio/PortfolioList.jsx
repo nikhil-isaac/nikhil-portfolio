@@ -90,6 +90,14 @@ const PortfolioListContent = [
     info: "Transaction analysis & churn prediction with privacy-preserving data masking.",
   },
   {
+    image: "image-15",
+    category: "Business Strategy, Marketing Analytics",
+    title: "Starbucks Case Study Analysis ",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/starbucks-case-study-analysis",
+    info: "In-depth application of marketing frameworks and Lean Six Sigma to dissect Starbucks’ product offerings and operational processes.",
+  },
+  {
     image: "image-1",
     category: "Express JS",
     title: "Mood: Social Media App",
