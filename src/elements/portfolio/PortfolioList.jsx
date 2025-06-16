@@ -66,6 +66,14 @@ const PortfolioListContent = [
     info: "A CRF-based NER system that extracts medical entities (drugs, conditions, anatomy, measurements) from clinical notes using handcrafted token features and cross-validated evaluation.",
   },
   {
+    image: "image-12",
+    category: "NLP, NMT, Deep Learning",
+    title: "Attentive Spanish–English NMT",
+    link: "",
+    repo: "https://github.com/nikhil-isaac/spanish-eng-nmt-attention",
+    info: "Attention-based Spanish→English translation with alignment heatmaps and BLEU scoring.",
+  },
+  {
     image: "image-1",
     category: "Express JS",
     title: "Mood: Social Media App",
