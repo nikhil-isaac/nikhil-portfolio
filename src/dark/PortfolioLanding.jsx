@@ -10,8 +10,7 @@ import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BrandTwo from "./BrandTwo";
-// import avatar from "../assets/images/about/avatar.png";
-import logo from "../assets/images/logo/logo.svg";
+import avatar from "../assets/images/about/avatar.jpg";
 
 const SlideList = [
   {
@@ -51,7 +50,7 @@ const PortfolioLanding = () => {
                   <div className="col-lg-12">
                     <div className={`inner ${value.textPosition}`}>
                       {value.category ? <span>{value.category}</span> : ""}
-                      <h2 className="title">
+                      <h2 className="title" style={{ display: "None" }}>
                         Hi, I’m Nikhil Isaac Manohar <br />
                         <TextLoop>
                           <span className="section-title">
@@ -75,11 +74,12 @@ const PortfolioLanding = () => {
                         </TextLoop>{" "}
                       </h2>
                       <button
-                        style={{
-                          marginTop: "12px",
-                          marginBottom: "50px",
-                          pointerEvents: "all",
-                        }}
+                        // style={{
+                        //   marginTop: "12px",
+                        //   marginBottom: "50px",
+                        //   pointerEvents: "all",
+                        // }}
+                        style={{ display: "None" }}
                         class="rn-btn btn-solid"
                       >
                         <a href={"#contact"}>Contact Me</a>
@@ -121,7 +121,7 @@ const PortfolioLanding = () => {
                         <div className="row row--35 align-items-center">
                           <div className="col-md-3">
                             <div className="thumbnail">
-                              <img className="w-100" src={logo} alt="Nikhil Avatar" />
+                              <img className="w-100" src={avatar} alt="Nikhil Avatar" />
                             </div>
                           </div>
                           <div className="col-md-9">
