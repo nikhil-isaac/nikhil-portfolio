@@ -12,7 +12,7 @@ const SocialShare = [
   },
 ];
 
-const HeaderThree = (props) => {
+const HeaderThree = props => {
   useEffect(() => {
     window.addEventListener("scroll", () => {
       var value = window.scrollY;
@@ -27,9 +27,7 @@ const HeaderThree = (props) => {
     for (var i in elements) {
       if (elements.hasOwnProperty(i)) {
         elements[i].onclick = function () {
-          this.parentElement
-            .querySelector(".submenu")
-            .classList.toggle("active");
+          this.parentElement.querySelector(".submenu").classList.toggle("active");
           this.classList.toggle("open");
         };
       }
@@ -47,13 +45,7 @@ const HeaderThree = (props) => {
 
   const { color = "default-color", homeLink } = props;
 
-  let logoUrl = (
-    <img
-      style={{ width: "50px", opacity: 0.8 }}
-      src={logo}
-      alt="Nikhil Manohar"
-    />
-  );
+  let logoUrl = <img style={{ width: "50px", opacity: 0.8 }} src={logo} alt="Nikhil Manohar" />;
 
   return (
     <header className={`header-area header-style-two header--fixed ${color}`}>
@@ -65,14 +57,7 @@ const HeaderThree = (props) => {
           <nav className="mainmenunav d-lg-block ml--50">
             <Scrollspy
               className="mainmenu"
-              items={[
-                "home",
-                "about",
-                "skills",
-                "portfolio",
-                "blog",
-                "contact",
-              ]}
+              items={["home", "about", "skills", "portfolio", "blog", "contact"]}
               currentClassName="is-current"
               offset={-200}
             >
@@ -91,9 +76,9 @@ const HeaderThree = (props) => {
               {/* <li>
                 <a href="#blog">Blog</a>
               </li> */}
-              <li>
+              {/* <li>
                 <a href="#contact">Contact</a>
-              </li>
+              </li> */}
             </Scrollspy>
           </nav>
         </div>

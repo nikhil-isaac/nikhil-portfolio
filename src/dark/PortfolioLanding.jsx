@@ -6,7 +6,7 @@ import { TextLoop } from "react-text-loop-next";
 import HeaderThree from "../component/header/HeaderThree";
 import FooterTwo from "../component/footer/FooterTwo";
 import TabTwo from "../elements/tab/TabTwo";
-import ContactThree from "../elements/contact/ContactThree";
+// import ContactThree from "../elements/contact/ContactThree";
 import PortfolioList from "../elements/portfolio/PortfolioList";
 import ServiceList from "../elements/service/ServiceList";
 import BrandTwo from "./BrandTwo";
@@ -277,14 +277,14 @@ const PortfolioLanding = () => {
       {/* End Brand Area */}
 
       {/* Start COntact Area */}
-      <div id="contact" className="fix">
+      {/* <div id="contact" className="fix">
         <div className="rn-contact-area ptb--120 bg_color--1">
           <ContactThree
             contactImages="/assets/images/about/about-9.jpg"
             contactTitle="Contact Me"
           />
         </div>
-      </div>
+      </div> */}
       {/* End COntact Area */}
 
       <FooterTwo />
