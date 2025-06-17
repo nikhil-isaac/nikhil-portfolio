@@ -33,7 +33,7 @@ class TabsTwo extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <a href="#skills">
-                      MS Data Science
+                      Master of Science in Data Science
                       <span> | 2022 - 2024</span>
                     </a>
                     {"University of Arizona, USA"}
