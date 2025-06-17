@@ -24,7 +24,7 @@ const SlideList = [
 ];
 const PortfolioLanding = () => {
   let description =
-    "I'm a software engineer specializing in building amazing digital experiences and products. Currently, I’m focused on building exceptional user interfaces for IBM.";
+    "Nikhil Manohar is a data-driven software engineer specializing in visual analytics and interpretable machine learning. After five years building enterprise data-governance interfaces at IBM, he earned an M.S. in Data Science from the University of Arizona.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div>
