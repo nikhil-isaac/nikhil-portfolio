@@ -10,8 +10,8 @@ class TabsTwo extends Component {
       tab4 = "",
       tab5 = "";
     if (type === "education") {
-      tab1 = "B.Tech + M.Tech";
-      tab2 = "MS Data Science";
+      tab1 = "MS Data Science";
+      tab2 = "B.Tech + M.Tech";
     } else if (type === "experience") {
       tab1 = "IBM";
       tab2 = "Ericsson";
@@ -29,6 +29,22 @@ class TabsTwo extends Component {
         return (
           <>
             <TabPanel>
+              <div className="single-tab-content">
+                <ul className="list-unstyled">
+                  <li>
+                    <a href="#skills">
+                      MS Data Science
+                      <span> | 2022 - 2024</span>
+                    </a>
+                    {"University of Arizona, USA"}
+                    <ul>
+                      <li>Leading public research university in the American Southwest</li>
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </TabPanel>
+            <TabPanel>
               <div className="single-tab-content list-unstyled">
                 <ul className="list-unstyled">
                   <li>
@@ -44,22 +60,6 @@ class TabsTwo extends Component {
                         Institute of National Importance Ministry of Human Resource Development,
                         Government of India
                       </li>
-                    </ul>
-                  </li>
-                </ul>
-              </div>
-            </TabPanel>
-            <TabPanel>
-              <div className="single-tab-content">
-                <ul className="list-unstyled">
-                  <li>
-                    <a href="#skills">
-                      MS Data Science
-                      <span> | 2022 - 2024</span>
-                    </a>
-                    {"University of Arizona, USA"}
-                    <ul>
-                      <li>Leading public research university in the American Southwest</li>
                     </ul>
                   </li>
                 </ul>
