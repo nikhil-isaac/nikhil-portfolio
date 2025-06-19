@@ -7,7 +7,7 @@ function Alert(props) {
   return <MuiAlert elevation={6} variant="filled" {...props} />;
 }
 
-const ContactThree = (props) => {
+const ContactThree = props => {
   const [rnName, setRnName] = useState("");
   const [rnEmail, setRnEmail] = useState("");
   const [rnSubject, setRnSubject] = useState("");
@@ -25,28 +25,28 @@ const ContactThree = (props) => {
     setOpen(false);
   };
 
-  const sendEmail = (e) => {
+  const sendEmail = e => {
     e.preventDefault();
     if (rnName && rnEmail) {
       emailjs
         .send(
-          "service_kizq2jc",
-          "template_kelvz78",
+          "xxxxxxxxxxxxxxxx",
+          "xxxxxxxxxxxxxxxx",
           {
             rnEmail: rnEmail,
             rnSubject: rnSubject,
             message: rnMessage,
             from_name: rnName,
           },
-          "user_mSOu4qc7NdtC3EkKkXIae"
+          "xxxxxxxxxxxxxxxx",
         )
         .then(
-          (result) => {
+          result => {
             handleClick();
           },
-          (error) => {
+          error => {
             console.log(error.text);
-          }
+          },
         );
       setRnName("");
       setRnEmail("");
@@ -73,23 +73,20 @@ const ContactThree = (props) => {
                     name="name"
                     id="item01"
                     value={rnName}
-                    onChange={(e) => {
+                    onChange={e => {
                       setRnName(e.target.value);
                     }}
                     placeholder="Your Name *"
                   />
                 </label>
 
-                <label
-                  style={{ float: "right", width: "48%" }}
-                  htmlFor="item02"
-                >
+                <label style={{ float: "right", width: "48%" }} htmlFor="item02">
                   <input
                     type="email"
                     name="email"
                     id="item02"
                     value={rnEmail}
-                    onChange={(e) => {
+                    onChange={e => {
                       setRnEmail(e.target.value);
                     }}
                     placeholder="Your email *"
@@ -102,7 +99,7 @@ const ContactThree = (props) => {
                     name="subject"
                     id="item03"
                     value={rnSubject}
-                    onChange={(e) => {
+                    onChange={e => {
                       setRnSubject(e.target.value);
                     }}
                     placeholder="Write a Subject"
@@ -114,7 +111,7 @@ const ContactThree = (props) => {
                     id="item04"
                     name="message"
                     value={rnMessage}
-                    onChange={(e) => {
+                    onChange={e => {
                       setRnMessage(e.target.value);
                     }}
                     placeholder="Your Message"
