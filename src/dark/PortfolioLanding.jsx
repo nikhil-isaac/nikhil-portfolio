@@ -23,7 +23,7 @@ const SlideList = [
 ];
 const PortfolioLanding = () => {
   let description =
-    "Nikhil Isaac Manohar is a data-driven software engineer specializing in visual analytics and interpretable machine learning. After five years building enterprise data-governance interfaces at IBM, he earned an M.S. in Data Science from the University of Arizona.";
+    "Nikhil Isaac Manohar is a data-driven former IBM software engineer specializing in data visualization and artificial intelligence. After five years building enterprise data-governance interfaces at IBM, he earned an M.S. in Data Science from the University of Arizona.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div>
