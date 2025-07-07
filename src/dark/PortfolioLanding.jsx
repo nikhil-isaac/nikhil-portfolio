@@ -23,7 +23,7 @@ const SlideList = [
 ];
 const PortfolioLanding = () => {
   let description =
-    "Nikhil Isaac Manohar is a data-driven former IBM software engineer specializing in data visualization and artificial intelligence. After five years building enterprise data-governance interfaces at IBM, he earned an M.S. in Data Science from the University of Arizona.";
+    "Nikhil Isaac Manohar is a data-driven former IBM software developer specializing in data visualization and artificial intelligence. After five years building enterprise data-governance interfaces at IBM, he earned an M.S. in Data Science from the University of Arizona.";
   // const PostList = BlogContent.slice(0, 3);
   return (
     <div>
@@ -54,7 +54,7 @@ const PortfolioLanding = () => {
                         Hi, I’m Nikhil Isaac Manohar <br />
                         <TextLoop>
                           <span className="section-title">
-                            <h3>Software Engineer</h3>
+                            <h3>Software Developer</h3>
                           </span>
                           <span className="section-title">
                             <h3>Full-stack Developer</h3>

@@ -75,9 +75,10 @@ class TabsTwo extends Component {
                 <ul className="list-unstyled">
                   <li>
                     <a href="#skills">
-                      SOFTWARE ENGINEER <span> | AUG 2019 - OCT 2024</span>
+                      SOFTWARE DEVELOPER <span> | AUG 2019 - OCT 2024</span>
                     </a>
-                    Software Engineer specializing in Data Visualization and Artificial Intelligence
+                    Software Developer specializing in Data Visualization and Artificial
+                    Intelligence
                   </li>
 
                   <ul>
